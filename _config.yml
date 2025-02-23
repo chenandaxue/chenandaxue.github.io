@@ -22,7 +22,7 @@ repository               : "chenandaxue/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "TouXioang.png"
+  avatar           : "TouXiang.png"
   name             : "李松达"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
