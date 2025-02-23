@@ -42,7 +42,7 @@ redirect_from:
 ## 联系方式
 
 - **电子邮件**：chenandaxue@gmail.com
-- **GitHub**：[https://github.com/xxx](https://github.com/xxx)
+- **GitHub**：[https://github.com/chenandaxue](https://github.com/chenandaxue)
 
 ---
 
