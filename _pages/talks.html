@@ -1,16 +1,80 @@
 ---
 layout: archive
-title: "Talks and presentations"
+title: "Awards"
 permalink: /talks/
 author_profile: true
 ---
 
-{% if site.talkmap_link == true %}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>获奖经历</title>
+  <style>
+    body {
+      background-color: #f7f7f7;
+      margin: 0;
+      padding: 0;
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      color: #333;
+    }
+    #award-experience {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+    #award-experience h2 {
+      text-align: center;
+      margin-bottom: 2rem;
+      font-size: 2.5rem;
+      color: #222;
+      border-bottom: 2px solid #007acc;
+      display: inline-block;
+      padding-bottom: 0.5rem;
+    }
+    .award {
+      background-color: #fff;
+      border-left: 5px solid #007acc;
+      margin-bottom: 1.5rem;
+      padding: 1rem 1.5rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      border-radius: 4px;
+    }
+    .award p {
+      margin: 0.5rem 0;
+      line-height: 1.6;
+    }
+    .award .date {
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <section id="award-experience">
+    <h2>获奖经历</h2>
+    
+    <div class="award">
+      <p>• “2024 博世砺行致远计划”励学金 <strong>No.1/107</strong> · 博世中国公司</p>
+      <p class="date">2024.10</p>
+    </div>
+    
+    <div class="award">
+      <p>• 2024 MCM 美国大学生数学建模竞赛 H 奖 <em>Predictive Model for Tennis Performance</em></p>
+      <p class="date">2024.05</p>
+    </div>
+    
+    <div class="award">
+      <p>• 2024 第六届全球校园人工智能算法精英大赛全国总决赛三等奖</p>
+      <p class="date">2024.12</p>
+    </div>
+    
+    <div class="award">
+      <p>• 第十五届蓝桥杯江苏赛区 C/C+ 程序设计大学 A 组三等奖</p>
+      <p class="date">2024.09</p>
+    </div>
+    
+  </section>
+</body>
+</html>
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
-
-{% endif %}
-
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
