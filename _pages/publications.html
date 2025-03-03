@@ -1,73 +1,130 @@
 ---
 layout: archive
-title: "Publications"
+title: "Projects"
 permalink: /publications/
 author_profile: true
 ---
-
-<section id="project-experience">
-  <h2>项目经历</h2>
-  
-  <div class="project">
-    <h3>• 基于人工智能算法的聚羧酸减水剂性能预测与优化</h3>
-    <p><strong>角色：</strong>主持，第一负责人</p>
-    <p><strong>时间：</strong>2023.09 - 至今</p>
-    <p><strong>科研工具：</strong>LAMMPS，Material Studio，Python，机器学习</p>
-    <p><strong>项目简介：</strong>东南大学首届青年科学家项目（共十项），全校同期 1400 余个项目中排名第一，项目获批经费四万元。</p>
-    <p><strong>研究内容：</strong></p>
-    <ul>
-      <li>构建聚羧酸减水剂宏观与分子层面数据库，整理数据 3000 余条。</li>
-      <li>采用 Material Studio+LAMMPS 模拟聚羧酸减水剂分子在水泥基复合材料环境的吸附行为。</li>
-      <li>构建基于 PolyOne 通用数据集的聚合物高分子预训练生成模型，生成有效性达 95%。</li>
-    </ul>
-    <p><strong>研究成果：</strong></p>
-    <ul>
-      <li>实用新型专利：一种 AI 增强的大矿掺水工混凝土材料性能预测与配合比设计集成系统。</li>
-      <li>软件著作权：ACMDS-混凝土材料性能智能预测平台。</li>
-    </ul>
-    <p><strong>责任描述：</strong>负责聚羧酸减水剂的分子动力学模拟及 ACMDS-混凝土材料性能智能预测平台的开发。</p>
-  </div>
-
-  <div class="project">
-    <h3>• “BrainBox”基于大模型技术的智能知识管理系统</h3>
-    <p><strong>角色：</strong>负责人</p>
-    <p><strong>时间：</strong>2024.08 - 2024.10</p>
-    <p><strong>技术栈：</strong>Vue + MySQL + Python，Django 框架</p>
-    <p><strong>项目简介：</strong>一款基于大语言模型的智能知识管理软件，支持智能化信息检索和 AI 问答等功能。</p>
-    <p><strong>功能实现：</strong></p>
-    <ul>
-      <li>采用提示词工程结合智谱清言大语言模型，实现 AI 助手功能。</li>
-      <li>采用 MVC 架构，分离视图、控制器与模型，确保代码的高复用性和模块化。</li>
-      <li>采用 RAG 技术实现信息检索与文本生成的结合，提升模型在特定任务中的表现。</li>
-    </ul>
-    <p><strong>责任描述：</strong>负责前端页面开发、后端业务功能设计与实现，以及大模型提示词工程的开发。</p>
-  </div>
-
-  <div class="project">
-    <h3>• “东南大学学生选课与信息管理系统”</h3>
-    <p><strong>角色：</strong>负责人</p>
-    <p><strong>时间：</strong>2024.09 - 2024.12</p>
-    <p><strong>技术栈：</strong>HTML, CSS, JavaScript + MySQL + Python，Django 框架</p>
-    <p><strong>项目简介：</strong>基于东南大学背景的学生选课与信息管理平台，支持学生、教师和管理员的多角色权限管理。</p>
-    <p><strong>功能实现：</strong></p>
-    <ul>
-      <li>使用索引优化与查询缓存机制，在系统负载较高的情况下，查询响应时间平均在 30 毫秒以内。</li>
-      <li>实现基于角色的访问控制（RBAC），细粒度权限管理确保不同用户角色安全操作数据。</li>
-    </ul>
-    <p><strong>责任描述：</strong>负责数据库索引优化、存储过程设计及查询缓存实现，提高数据处理速度。</p>
-  </div>
-
-  <div class="project">
-    <h3>• 校级大创“简单 3D 游戏引擎的设计与实现”</h3>
-    <p><strong>时间：</strong>2023.09 - 2024.10</p>
-    <p><strong>技术栈：</strong>C++ + Vulkan + Lua + CMake</p>
-    <p><strong>项目简介：</strong>一款具备分层架构、可扩展性的简易 3D 游戏引擎，支持图形渲染、物理模拟、输入管理和脚本系统。</p>
-    <p><strong>功能实现：</strong></p>
-    <ul>
-      <li>设计并实现了分层架构，包括工具层、资源层、功能层、核心层和平台层，确保引擎的可维护性和扩展性。</li>
-      <li>使用 Vulkan 进行高效图形渲染，支持前向渲染与延迟渲染，提供高质量的实时图形表现。</li>
-    </ul>
-    <p><strong>责任描述：</strong>负责游戏引擎架构设计和模块化系统划分，确保各模块高效协同工作。</p>
-  </div>
-  
-</section>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>项目经历</title>
+  <style>
+    body {
+      background-color: #f7f7f7;
+      margin: 0;
+      padding: 0;
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      color: #333;
+    }
+    #project-experience {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+    #project-experience h2 {
+      text-align: center;
+      margin-bottom: 2rem;
+      font-size: 2.5rem;
+      color: #222;
+      border-bottom: 2px solid #007acc;
+      display: inline-block;
+      padding-bottom: 0.5rem;
+    }
+    .project {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+    .project h3 {
+      margin-top: 0;
+      color: #007acc;
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+    .project p {
+      margin: 0.5rem 0;
+      line-height: 1.6;
+    }
+    .project ul {
+      list-style: disc;
+      margin: 0.5rem 0 1rem 2rem;
+      padding-left: 0;
+    }
+    .project li {
+      margin: 0.5rem 0;
+    }
+  </style>
+</head>
+<body>
+  <section id="project-experience">
+    <h2>项目经历</h2>
+    
+    <div class="project">
+      <h3>• 基于人工智能算法的聚羧酸减水剂性能预测与优化</h3>
+      <p><strong>角色：</strong>主持，第一负责人</p>
+      <p><strong>时间：</strong>2023.09 - 至今</p>
+      <p><strong>科研工具：</strong>LAMMPS，Material Studio，Python，机器学习</p>
+      <p><strong>项目简介：</strong>东南大学首届青年科学家项目（共十项），全校同期 1400 余个项目中排名第一，项目获批经费四万元。</p>
+      <p><strong>研究内容：</strong></p>
+      <ul>
+        <li>构建聚羧酸减水剂宏观与分子层面数据库，整理数据 3000 余条。</li>
+        <li>采用 Material Studio+LAMMPS 模拟聚羧酸减水剂分子在水泥基复合材料环境的吸附行为。</li>
+        <li>构建基于 PolyOne 通用数据集的聚合物高分子预训练生成模型，生成有效性达 95%。</li>
+      </ul>
+      <p><strong>研究成果：</strong></p>
+      <ul>
+        <li>实用新型专利：一种 AI 增强的大矿掺水工混凝土材料性能预测与配合比设计集成系统。</li>
+        <li>软件著作权：ACMDS-混凝土材料性能智能预测平台。</li>
+      </ul>
+      <p><strong>责任描述：</strong>负责聚羧酸减水剂的分子动力学模拟及 ACMDS-混凝土材料性能智能预测平台的开发。</p>
+    </div>
+    
+    <div class="project">
+      <h3>• “BrainBox”基于大模型技术的智能知识管理系统</h3>
+      <p><strong>角色：</strong>负责人</p>
+      <p><strong>时间：</strong>2024.08 - 2024.10</p>
+      <p><strong>技术栈：</strong>Vue + MySQL + Python，Django 框架</p>
+      <p><strong>项目简介：</strong>一款基于大语言模型的智能知识管理软件，支持智能化信息检索和 AI 问答等功能。</p>
+      <p><strong>功能实现：</strong></p>
+      <ul>
+        <li>采用提示词工程结合智谱清言大语言模型，实现 AI 助手功能。</li>
+        <li>采用 MVC 架构，分离视图、控制器与模型，确保代码的高复用性和模块化。</li>
+        <li>采用 RAG 技术实现信息检索与文本生成的结合，提升模型在特定任务中的表现。</li>
+      </ul>
+      <p><strong>责任描述：</strong>负责前端页面开发、后端业务功能设计与实现，以及大模型提示词工程的开发。</p>
+    </div>
+    
+    <div class="project">
+      <h3>• “东南大学学生选课与信息管理系统”</h3>
+      <p><strong>角色：</strong>负责人</p>
+      <p><strong>时间：</strong>2024.09 - 2024.12</p>
+      <p><strong>技术栈：</strong>HTML, CSS, JavaScript + MySQL + Python，Django 框架</p>
+      <p><strong>项目简介：</strong>基于东南大学背景的学生选课与信息管理平台，支持学生、教师和管理员的多角色权限管理。</p>
+      <p><strong>功能实现：</strong></p>
+      <ul>
+        <li>使用索引优化与查询缓存机制，在系统负载较高的情况下，查询响应时间平均在 30 毫秒以内。</li>
+        <li>实现基于角色的访问控制（RBAC），细粒度权限管理确保不同用户角色安全操作数据。</li>
+      </ul>
+      <p><strong>责任描述：</strong>负责数据库索引优化、存储过程设计及查询缓存实现，提高数据处理速度。</p>
+    </div>
+    
+    <div class="project">
+      <h3>• 校级大创“简单 3D 游戏引擎的设计与实现”</h3>
+      <p><strong>时间：</strong>2023.09 - 2024.10</p>
+      <p><strong>技术栈：</strong>C++ + Vulkan + Lua + CMake</p>
+      <p><strong>项目简介：</strong>一款具备分层架构、可扩展性的简易 3D 游戏引擎，支持图形渲染、物理模拟、输入管理和脚本系统。</p>
+      <p><strong>功能实现：</strong></p>
+      <ul>
+        <li>设计并实现了分层架构，包括工具层、资源层、功能层、核心层和平台层，确保引擎的可维护性和扩展性。</li>
+        <li>使用 Vulkan 进行高效图形渲染，支持前向渲染与延迟渲染，提供高质量的实时图形表现。</li>
+      </ul>
+      <p><strong>责任描述：</strong>负责游戏引擎架构设计和模块化系统划分，确保各模块高效协同工作。</p>
+    </div>
+    
+  </section>
+</body>
+</html>
